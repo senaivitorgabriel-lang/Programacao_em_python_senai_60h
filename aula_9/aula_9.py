@@ -29,7 +29,7 @@ if nome_login in cadastro ['nomes'] and senha_acesso in cadastro['senhas']:
 
     print('Escolha o seu quarto: ', cadastro['nomes'][0])
     quartos  = ['','Quarto Simples', 'Quarto Duplo', 'Quarto Luxo']
-    valores  =  [0,100,150,250]
+    valores  =  [0,1000,1500,2500]
     print('quartos:  ', quartos)
     escolha = int(input('Quarto Simples | Quarto Duplo | Quarto Luxo'))
     dias = int(input('Quantos Dias Ficara Hospedado'))
@@ -41,7 +41,7 @@ if nome_login in cadastro ['nomes'] and senha_acesso in cadastro['senhas']:
 
     print('Escolha o quarto: ', cadastro['nomes'][1])
     quartos  = ['','Quarto Simples', 'Quarto Duplo', 'Quarto Luxo']
-    valores  =  [0,100,150,250]
+    valores  =  [0,1000,1500,2500]
     print('quartos:  ', quartos)
     escolha  =  int(input('Quarto Simples | Quarto Duplo | Quarto Luxo'))
     dias = int(input('Quantos Dias Ficara Hospedado'))
@@ -53,7 +53,7 @@ if nome_login in cadastro ['nomes'] and senha_acesso in cadastro['senhas']:
 
     print('Escolha o quarto: ', cadastro['nomes'][2])
     quartos  = ['','Quarto Simples', 'Quarto Duplo', 'Quarto Luxo']
-    valores  =  [0,100,150,250]
+    valores  =  [0,1000,1500,2500]
     print('quartos:  ', quartos)
     escolha  =  int(input('Quarto Simples | Quarto Duplo | Quarto Luxo'))
     dias = int(input('Quantos Dias Ficara Hospedado'))
